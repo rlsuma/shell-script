@@ -7,3 +7,4 @@ echo "current working directory: $PWD"
 echo "Home directory of current user:$HOME"
 echo "process ID of the current shell script:$$"
 echo "proess:$HOSTNAME"
+sleep 60

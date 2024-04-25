@@ -17,4 +17,5 @@ then
   VALIDATE $? "Installing MYSQL"
   
   dnf insatll git -y
-  VALIDATE $? "Installing git"
+  VALIDATE $? "Installing MYSQL"
+fi

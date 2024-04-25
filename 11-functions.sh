@@ -1,5 +1,6 @@
 #!/bin/bash
-USERID(id -u)
+USERID=$(id -u)
+
 VALIDATE(){
     echo "Exit status: $1"
     echo "What are you doing :$2"

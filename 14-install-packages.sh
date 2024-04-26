@@ -9,11 +9,10 @@ then
      echo "your are super user."
      fi
 
-     echo "all packages: $@"
+    
 
      for i in $@
      do 
-
-     echo "package to insatall :$i
-
-    Done
+ echo "all packages: $@"
+     
+done

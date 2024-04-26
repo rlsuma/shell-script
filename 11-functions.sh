@@ -10,9 +10,9 @@ USERID=$(id -u)
         else 
     echo "$2.....SUCCeSS"
     
-    
-fi
+    fi
 }
+
 if [ $USERID -ne 0]
 then
   echo "please run this script with root access."
